@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>F0C9085C-3010-4E2D-9725-06E41AFFDEC3</string>
+	<key>IDESourceControlProjectName</key>
+	<string>Control Fun</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>B3E3805BA296077E5EDE4D3C45F8102736C7CB9C</key>
+		<string>https://github.com/phommata/swift.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>Control Fun/Control Fun.xcodeproj</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>B3E3805BA296077E5EDE4D3C45F8102736C7CB9C</key>
+		<string>../../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/phommata/swift.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>B3E3805BA296077E5EDE4D3C45F8102736C7CB9C</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>B3E3805BA296077E5EDE4D3C45F8102736C7CB9C</string>
+			<key>IDESourceControlWCCName</key>
+			<string>swift</string>
+		</dict>
+	</array>
+</dict>
+</plist>
