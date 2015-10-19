@@ -27,5 +27,10 @@ class ViewController: UIViewController {
     @IBAction func textFieldDoneEditing(sender: UITextField) {
         sender.resignFirstResponder()
     }
+    
+    @IBAction func backgroundTap(sender: UIControl) {
+        nameField.resignFirstResponder()
+        numberField.resignFirstResponder()
+    }
 }
 

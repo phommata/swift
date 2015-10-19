@@ -12,7 +12,7 @@
                         <viewControllerLayoutGuide type="top" id="jyV-Pf-zRb"/>
                         <viewControllerLayoutGuide type="bottom" id="2fi-mo-0CV"/>
                     </layoutGuides>
-                    <view key="view" contentMode="scaleToFill" id="kh9-bI-dsS">
+                    <view key="view" contentMode="scaleToFill" id="kh9-bI-dsS" customClass="UIControl">
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <subviews>
@@ -24,7 +24,7 @@
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="words"/>
                                 <connections>
-                                    <action selector="textFieldDoneEditing:" destination="vXZ-lx-hvc" eventType="editingDidEndOnExit" id="Ejm-KJ-LIc"/>
+                                    <action selector="textFieldDoneEditing:" destination="vXZ-lx-hvc" eventType="editingDidEndOnExit" id="ges-AJ-N70"/>
                                 </connections>
                             </textField>
                             <textField clearsContextBeforeDrawing="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Type in a number" clearsOnBeginEditing="YES" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="8MZ-Wk-qs8">
@@ -53,7 +53,14 @@
                             <constraint firstItem="QTC-8b-hcR" firstAttribute="width" secondItem="QTQ-0w-dql" secondAttribute="width" id="Dw6-AQ-Ujm"/>
                             <constraint firstAttribute="centerX" secondItem="MTG-7a-l06" secondAttribute="centerX" id="erT-0j-ECw"/>
                         </constraints>
+                        <connections>
+                            <action selector="backgroundTap:" destination="vXZ-lx-hvc" eventType="touchDown" id="3Z2-tX-wY9"/>
+                        </connections>
                     </view>
+                    <connections>
+                        <outlet property="nameField" destination="0ax-WY-yfW" id="UdO-8C-QhQ"/>
+                        <outlet property="numberField" destination="8MZ-Wk-qs8" id="dm8-cg-bmV"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="x5A-6p-PRh" sceneMemberID="firstResponder"/>
             </objects>
