@@ -85,12 +85,15 @@
                                     <action selector="switchChanged:" destination="vXZ-lx-hvc" eventType="valueChanged" id="Ym9-ZH-hAu"/>
                                 </connections>
                             </switch>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Ldl-OM-VHb">
+                            <button hidden="YES" opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Ldl-OM-VHb">
                                 <rect key="frame" x="16" y="484" width="568" height="38"/>
                                 <state key="normal" title="Do Something" image="whiteButton">
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                                 <state key="highlighted" image="blueButton"/>
+                                <connections>
+                                    <action selector="buttonPressed:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="Qkh-In-XB4"/>
+                                </connections>
                             </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
@@ -129,6 +132,7 @@
                         </connections>
                     </view>
                     <connections>
+                        <outlet property="doSomethingButton" destination="Ldl-OM-VHb" id="O6K-8I-0oo"/>
                         <outlet property="leftSwitch" destination="pDz-uV-iMt" id="EkU-Ge-e5L"/>
                         <outlet property="nameField" destination="0ax-WY-yfW" id="UdO-8C-QhQ"/>
                         <outlet property="numberField" destination="8MZ-Wk-qs8" id="dm8-cg-bmV"/>

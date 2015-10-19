@@ -11,14 +11,11 @@ import UIKit
 class ViewController: UIViewController {
 
     @IBOutlet weak var nameField: UITextField!
-    
     @IBOutlet weak var numberField: UITextField!
-    
     @IBOutlet weak var sliderLabel: UILabel!
-    
     @IBOutlet weak var leftSwitch: UISwitch!
-    
     @IBOutlet weak var rightSwitch: UISwitch!
+    @IBOutlet weak var doSomethingButton: UIButton!
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -53,6 +50,9 @@ class ViewController: UIViewController {
     }
     
     @IBAction func toggleControls(sender: UISegmentedControl) {
+    }
+    
+    @IBAction func buttonPressed(sender: UIButton) {
     }
 }
 
