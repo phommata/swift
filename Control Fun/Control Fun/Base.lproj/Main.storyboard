@@ -65,9 +65,15 @@
                             </label>
                             <switch opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" contentHorizontalAlignment="center" contentVerticalAlignment="center" on="YES" translatesAutoresizingMaskIntoConstraints="NO" id="pDz-uV-iMt">
                                 <rect key="frame" x="16" y="484" width="51" height="31"/>
+                                <connections>
+                                    <action selector="switchChanged:" destination="vXZ-lx-hvc" eventType="valueChanged" id="iMJ-rV-jdG"/>
+                                </connections>
                             </switch>
                             <switch opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" contentHorizontalAlignment="center" contentVerticalAlignment="center" on="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Cnh-Q8-5ty">
                                 <rect key="frame" x="535" y="484" width="51" height="31"/>
+                                <connections>
+                                    <action selector="switchChanged:" destination="vXZ-lx-hvc" eventType="valueChanged" id="Ym9-ZH-hAu"/>
+                                </connections>
                             </switch>
                             <segmentedControl opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="left" contentVerticalAlignment="top" segmentControlStyle="plain" selectedSegmentIndex="0" translatesAutoresizingMaskIntoConstraints="NO" id="ZfP-RO-6t4">
                                 <rect key="frame" x="234" y="368" width="139" height="29"/>
@@ -75,6 +81,9 @@
                                     <segment title="Switches"/>
                                     <segment title="Button"/>
                                 </segments>
+                                <connections>
+                                    <action selector="toggleControls:" destination="vXZ-lx-hvc" eventType="valueChanged" id="fzM-Gg-vGD"/>
+                                </connections>
                             </segmentedControl>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
@@ -110,8 +119,10 @@
                         </connections>
                     </view>
                     <connections>
+                        <outlet property="leftSwitch" destination="pDz-uV-iMt" id="EkU-Ge-e5L"/>
                         <outlet property="nameField" destination="0ax-WY-yfW" id="UdO-8C-QhQ"/>
                         <outlet property="numberField" destination="8MZ-Wk-qs8" id="dm8-cg-bmV"/>
+                        <outlet property="rightSwitch" destination="Cnh-Q8-5ty" id="bzm-bs-lKT"/>
                         <outlet property="sliderLabel" destination="4xt-y3-zhy" id="UHs-t0-IGE"/>
                     </connections>
                 </viewController>
