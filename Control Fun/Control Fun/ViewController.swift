@@ -18,7 +18,9 @@ class ViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
+
         // Do any additional setup after loading the view, typically from a nib.
+        sliderLabel.text = "50"
     }
 
     override func didReceiveMemoryWarning() {
@@ -36,6 +38,8 @@ class ViewController: UIViewController {
     }
     
     @IBAction func sliderChanged(sender: UISlider) {
+        let progress = lroundf(sender.value)
+        sliderLabel.text = "\(progress)"
     }
 }
 
