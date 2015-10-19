@@ -47,6 +47,9 @@ class ViewController: UIViewController {
     }
     
     @IBAction func switchChanged(sender: UISwitch) {
+        let setting = sender.on
+        leftSwitch.setOn(setting, animated: true)
+        rightSwitch.setOn(setting, animated: true)
     }
     
     @IBAction func toggleControls(sender: UISegmentedControl) {
