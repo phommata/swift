@@ -8,11 +8,16 @@
 
 /* Begin PBXBuildFile section */
 		4BA7A96D1BD839F30014ED61 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BA7A96C1BD839F30014ED61 /* AppDelegate.swift */; };
-		4BA7A96F1BD839F30014ED61 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BA7A96E1BD839F30014ED61 /* ViewController.swift */; };
 		4BA7A9721BD839F30014ED61 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4BA7A9701BD839F30014ED61 /* Main.storyboard */; };
 		4BA7A9741BD839F30014ED61 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4BA7A9731BD839F30014ED61 /* Images.xcassets */; };
 		4BA7A9771BD839F30014ED61 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4BA7A9751BD839F30014ED61 /* LaunchScreen.xib */; };
 		4BA7A9831BD839F30014ED61 /* __View_SwitcherTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BA7A9821BD839F30014ED61 /* __View_SwitcherTests.swift */; };
+		4BA7A98E1BD83BA10014ED61 /* SwitchingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BA7A98C1BD83BA10014ED61 /* SwitchingViewController.swift */; };
+		4BA7A98F1BD83BA10014ED61 /* SwitchingViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4BA7A98D1BD83BA10014ED61 /* SwitchingViewController.xib */; };
+		4BA7A9921BD83C610014ED61 /* BlueViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BA7A9901BD83C610014ED61 /* BlueViewController.swift */; };
+		4BA7A9931BD83C610014ED61 /* BlueViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4BA7A9911BD83C610014ED61 /* BlueViewController.xib */; };
+		4BA7A9961BD83C760014ED61 /* YellowViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BA7A9941BD83C760014ED61 /* YellowViewController.swift */; };
+		4BA7A9971BD83C760014ED61 /* YellowViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4BA7A9951BD83C760014ED61 /* YellowViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -29,13 +34,18 @@
 		4BA7A9671BD839F30014ED61 /* 6 View Switcher.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "6 View Switcher.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		4BA7A96B1BD839F30014ED61 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		4BA7A96C1BD839F30014ED61 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		4BA7A96E1BD839F30014ED61 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		4BA7A9711BD839F30014ED61 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		4BA7A9731BD839F30014ED61 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		4BA7A9761BD839F30014ED61 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		4BA7A97C1BD839F30014ED61 /* 6 View SwitcherTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "6 View SwitcherTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		4BA7A9811BD839F30014ED61 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		4BA7A9821BD839F30014ED61 /* __View_SwitcherTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = __View_SwitcherTests.swift; sourceTree = "<group>"; };
+		4BA7A98C1BD83BA10014ED61 /* SwitchingViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SwitchingViewController.swift; sourceTree = "<group>"; };
+		4BA7A98D1BD83BA10014ED61 /* SwitchingViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SwitchingViewController.xib; sourceTree = "<group>"; };
+		4BA7A9901BD83C610014ED61 /* BlueViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BlueViewController.swift; sourceTree = "<group>"; };
+		4BA7A9911BD83C610014ED61 /* BlueViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = BlueViewController.xib; sourceTree = "<group>"; };
+		4BA7A9941BD83C760014ED61 /* YellowViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = YellowViewController.swift; sourceTree = "<group>"; };
+		4BA7A9951BD83C760014ED61 /* YellowViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = YellowViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -78,8 +88,13 @@
 			isa = PBXGroup;
 			children = (
 				4BA7A96C1BD839F30014ED61 /* AppDelegate.swift */,
-				4BA7A96E1BD839F30014ED61 /* ViewController.swift */,
 				4BA7A9701BD839F30014ED61 /* Main.storyboard */,
+				4BA7A9901BD83C610014ED61 /* BlueViewController.swift */,
+				4BA7A9911BD83C610014ED61 /* BlueViewController.xib */,
+				4BA7A9941BD83C760014ED61 /* YellowViewController.swift */,
+				4BA7A9951BD83C760014ED61 /* YellowViewController.xib */,
+				4BA7A98C1BD83BA10014ED61 /* SwitchingViewController.swift */,
+				4BA7A98D1BD83BA10014ED61 /* SwitchingViewController.xib */,
 				4BA7A9731BD839F30014ED61 /* Images.xcassets */,
 				4BA7A9751BD839F30014ED61 /* LaunchScreen.xib */,
 				4BA7A96A1BD839F30014ED61 /* Supporting Files */,
@@ -193,8 +208,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				4BA7A9721BD839F30014ED61 /* Main.storyboard in Resources */,
+				4BA7A9931BD83C610014ED61 /* BlueViewController.xib in Resources */,
 				4BA7A9771BD839F30014ED61 /* LaunchScreen.xib in Resources */,
 				4BA7A9741BD839F30014ED61 /* Images.xcassets in Resources */,
+				4BA7A9971BD83C760014ED61 /* YellowViewController.xib in Resources */,
+				4BA7A98F1BD83BA10014ED61 /* SwitchingViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -212,8 +230,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4BA7A96F1BD839F30014ED61 /* ViewController.swift in Sources */,
+				4BA7A9961BD83C760014ED61 /* YellowViewController.swift in Sources */,
 				4BA7A96D1BD839F30014ED61 /* AppDelegate.swift in Sources */,
+				4BA7A9921BD83C610014ED61 /* BlueViewController.swift in Sources */,
+				4BA7A98E1BD83BA10014ED61 /* SwitchingViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
