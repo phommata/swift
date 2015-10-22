@@ -38,5 +38,71 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
         </scene>
+        <!--Blue View Controller-->
+        <scene sceneID="Fkv-Bi-iby">
+            <objects>
+                <viewController storyboardIdentifier="Blue" id="L4C-zJ-Hh5" customClass="BlueViewController" customModule="__View_Switcher" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="vsy-RI-Nvt"/>
+                        <viewControllerLayoutGuide type="bottom" id="3Jq-Gk-CdL"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="Wk3-o7-wYW">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="vRn-rb-rtz">
+                                <rect key="frame" x="277" y="285" width="64" height="30"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <state key="normal" title="Press Me">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="blueButtonPressed:" destination="L4C-zJ-Hh5" eventType="touchUpInside" id="tz2-bh-s3D"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" red="0.40000000596046448" green="0.80000001192092896" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                        <constraints>
+                            <constraint firstAttribute="centerY" secondItem="vRn-rb-rtz" secondAttribute="centerY" id="xdB-7c-a3p"/>
+                            <constraint firstAttribute="centerX" secondItem="vRn-rb-rtz" secondAttribute="centerX" id="zPM-sX-E3N"/>
+                        </constraints>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="eLN-fS-pJm" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+        </scene>
+        <!--Yellow View Controller-->
+        <scene sceneID="gBC-do-J87">
+            <objects>
+                <viewController storyboardIdentifier="Yellow" id="2Jx-gz-O5i" customClass="YellowViewController" customModule="__View_Switcher" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="bzv-Al-wig"/>
+                        <viewControllerLayoutGuide type="bottom" id="DNl-yT-01u"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="nq6-d9-WU3">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="IeY-8U-2fz">
+                                <rect key="frame" x="277" y="285" width="98" height="30"/>
+                                <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <state key="normal" title="Press Me, Too">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="yellowButtonPressed:" destination="2Jx-gz-O5i" eventType="touchUpInside" id="Y2i-2g-kUd"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                        <constraints>
+                            <constraint firstAttribute="centerX" secondItem="IeY-8U-2fz" secondAttribute="centerX" id="g6Y-zQ-6Os"/>
+                            <constraint firstAttribute="centerY" secondItem="IeY-8U-2fz" secondAttribute="centerY" id="iYN-3A-UwT"/>
+                        </constraints>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="aJg-iq-kEj" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+        </scene>
     </scenes>
 </document>
