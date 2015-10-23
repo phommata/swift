@@ -61,6 +61,11 @@ class SwitchingViewController: UIViewController {
             as BlueViewController
             }
         }
+    
+        UIView.beginAnimations("View Flip", context: nil)
+        UIView.setAnimationDuration(0.4)
+        UIView.setAnimationCurve(.EaseInOut)
+    
         // Switch view controllers
         if blueViewController != nil && blueViewController!.view.superview != nil {
             UIView.setAnimationTransition(.FlipFromRight, forView: view, cache: true)
@@ -71,19 +76,21 @@ class SwitchingViewController: UIViewController {
             blueViewController.view.frame = view.frame
             switchViewController(from: yellowViewController, to: blueViewController)
         }
+    
+        UIView.commitAnimations()
     }
     
     private func switchViewController(from fromVC:UIViewController?, to toVC:UIViewController?) {
-                if fromVC != nil {
-                fromVC!.willMoveToParentViewController(nil)
-                fromVC!.view.removeFromSuperview()
-                fromVC!.removeFromParentViewController()
-                }
-                
-                if toVC != nil {
-        self.addChildViewController(toVC!)
-        self.view.insertSubview(toVC!.view, atIndex: 0)
-        toVC!.didMoveToParentViewController(self)
-                }
+        if fromVC != nil {
+            fromVC!.willMoveToParentViewController(nil)
+            fromVC!.view.removeFromSuperview()
+            fromVC!.removeFromParentViewController()
+        }
+            
+        if toVC != nil {
+            self.addChildViewController(toVC!)
+            self.view.insertSubview(toVC!.view, atIndex: 0)
+            toVC!.didMoveToParentViewController(self)
+        }
     }
 }
