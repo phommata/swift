@@ -34,9 +34,38 @@
                     <view key="view" contentMode="scaleToFill" id="xcb-Di-yVU">
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <datePicker contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" datePickerMode="dateAndTime" minuteInterval="1" translatesAutoresizingMaskIntoConstraints="NO" id="Jnj-hn-fTg">
+                                <rect key="frame" x="140" y="20" width="320" height="162"/>
+                                <date key="date" timeIntervalSinceReferenceDate="467509067.90504497">
+                                    <!--2015-10-25 23:37:47 +0000-->
+                                </date>
+                                <date key="maximumDate" timeIntervalSinceReferenceDate="6311300400">
+                                    <!--2200-12-31 11:00:00 +0000-->
+                                </date>
+                            </datePicker>
+                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="OYa-cM-gxq">
+                                <rect key="frame" x="279" y="258" width="43" height="30"/>
+                                <state key="normal" title="Select">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="buttonPressed:" destination="091-ty-tf4" eventType="touchUpInside" id="OTh-pv-FW0"/>
+                                </connections>
+                            </button>
+                        </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstAttribute="centerX" secondItem="Jnj-hn-fTg" secondAttribute="centerX" id="Xg1-7I-GZ4"/>
+                            <constraint firstItem="Jnj-hn-fTg" firstAttribute="top" secondItem="NCV-TN-HnD" secondAttribute="bottom" id="dbU-Sg-0lp"/>
+                            <constraint firstAttribute="centerX" secondItem="OYa-cM-gxq" secondAttribute="centerX" id="lui-Ds-dNG"/>
+                            <constraint firstItem="OYa-cM-gxq" firstAttribute="top" secondItem="Jnj-hn-fTg" secondAttribute="bottom" constant="75" id="naf-vQ-YfZ"/>
+                        </constraints>
                     </view>
                     <tabBarItem key="tabBarItem" title="Date" image="clockicon" id="3zb-th-mil"/>
+                    <connections>
+                        <outlet property="datePicker" destination="Jnj-hn-fTg" id="rL1-Fl-YlX"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="bMm-mW-R5k" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
