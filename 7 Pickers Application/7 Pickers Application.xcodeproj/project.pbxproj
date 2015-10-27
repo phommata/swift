@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4BC78C8B1BDFDC1600BEC343 /* statedictionary.plist in Resources */ = {isa = PBXBuildFile; fileRef = 4BC78C8A1BDFDC1600BEC343 /* statedictionary.plist */; };
 		4BF9A1A71BDAC11600870582 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BF9A1A61BDAC11600870582 /* AppDelegate.swift */; };
 		4BF9A1A91BDAC11600870582 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BF9A1A81BDAC11600870582 /* ViewController.swift */; };
 		4BF9A1AC1BDAC11600870582 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4BF9A1AA1BDAC11600870582 /* Main.storyboard */; };
@@ -31,6 +32,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		4BC78C8A1BDFDC1600BEC343 /* statedictionary.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = statedictionary.plist; sourceTree = "<group>"; };
 		4BF9A1A11BDAC11600870582 /* 7 Pickers Application.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "7 Pickers Application.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		4BF9A1A51BDAC11600870582 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		4BF9A1A61BDAC11600870582 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -89,6 +91,7 @@
 			children = (
 				4BF9A1A61BDAC11600870582 /* AppDelegate.swift */,
 				4BF9A1A81BDAC11600870582 /* ViewController.swift */,
+				4BC78C8A1BDFDC1600BEC343 /* statedictionary.plist */,
 				4BF9A1AA1BDAC11600870582 /* Main.storyboard */,
 				4BF9A1AD1BDAC11600870582 /* Images.xcassets */,
 				4BF9A1AF1BDAC11600870582 /* LaunchScreen.xib */,
@@ -209,6 +212,7 @@
 			files = (
 				4BF9A1AC1BDAC11600870582 /* Main.storyboard in Resources */,
 				4BF9A1B11BDAC11600870582 /* LaunchScreen.xib in Resources */,
+				4BC78C8B1BDFDC1600BEC343 /* statedictionary.plist in Resources */,
 				4BF9A1AE1BDAC11600870582 /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -427,6 +431,7 @@
 				4BF9A1C21BDAC11700870582 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		4BF9A1C31BDAC11700870582 /* Build configuration list for PBXNativeTarget "7 Pickers ApplicationTests" */ = {
 			isa = XCConfigurationList;
@@ -435,6 +440,7 @@
 				4BF9A1C51BDAC11700870582 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
