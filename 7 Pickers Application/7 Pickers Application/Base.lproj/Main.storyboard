@@ -220,9 +220,45 @@
                     <view key="view" contentMode="scaleToFill" id="6eV-In-wVR">
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Vly-Om-2j2">
+                                <rect key="frame" x="285" y="277" width="31" height="30"/>
+                                <state key="normal" title="Spin">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="spin:" destination="jSi-Nz-5AK" eventType="touchUpInside" id="VM5-lC-hFd"/>
+                                </connections>
+                            </button>
+                            <pickerView userInteractionEnabled="NO" contentMode="scaleToFill" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="eum-BP-XzX">
+                                <rect key="frame" x="0.0" y="35" width="600" height="162"/>
+                                <connections>
+                                    <outlet property="dataSource" destination="jSi-Nz-5AK" id="UrU-Bm-6ej"/>
+                                    <outlet property="delegate" destination="jSi-Nz-5AK" id="mOb-R9-Btx"/>
+                                </connections>
+                            </pickerView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="MOE-VI-ECe">
+                                <rect key="frame" x="247" y="215" width="107" height="42"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="48"/>
+                                <color key="textColor" red="1" green="0.0" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="Vly-Om-2j2" firstAttribute="top" secondItem="MOE-VI-ECe" secondAttribute="bottom" constant="34" id="1kj-aX-Dyd"/>
+                            <constraint firstAttribute="centerX" secondItem="Vly-Om-2j2" secondAttribute="centerX" id="BKM-0k-zGa"/>
+                            <constraint firstAttribute="centerX" secondItem="MOE-VI-ECe" secondAttribute="centerX" id="WrI-BC-rUX"/>
+                            <constraint firstItem="eum-BP-XzX" firstAttribute="top" secondItem="b6w-rw-Fhu" secondAttribute="bottom" id="bUF-KJ-Sd9"/>
+                            <constraint firstItem="MOE-VI-ECe" firstAttribute="top" secondItem="eum-BP-XzX" secondAttribute="bottom" constant="45" id="blP-zA-9sU"/>
+                            <constraint firstAttribute="centerX" secondItem="eum-BP-XzX" secondAttribute="centerX" id="gGb-am-tyP"/>
+                        </constraints>
                     </view>
                     <tabBarItem key="tabBarItem" title="Custom" image="toolicon" id="sMW-19-1z7"/>
+                    <connections>
+                        <outlet property="picker" destination="eum-BP-XzX" id="hJN-LW-xxn"/>
+                        <outlet property="winLabel" destination="MOE-VI-ECe" id="lqa-pZ-WCo"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="QRT-dZ-0CW" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
