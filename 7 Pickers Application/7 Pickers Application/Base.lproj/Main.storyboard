@@ -256,6 +256,7 @@
                     </view>
                     <tabBarItem key="tabBarItem" title="Custom" image="toolicon" id="sMW-19-1z7"/>
                     <connections>
+                        <outlet property="button" destination="Vly-Om-2j2" id="mDn-lD-98V"/>
                         <outlet property="picker" destination="eum-BP-XzX" id="hJN-LW-xxn"/>
                         <outlet property="winLabel" destination="MOE-VI-ECe" id="lqa-pZ-WCo"/>
                     </connections>
