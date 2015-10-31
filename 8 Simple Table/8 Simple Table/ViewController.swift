@@ -42,7 +42,8 @@ class ViewController: UIViewController, UITableViewDataSource, UITableViewDelega
         
         if (cell == nil) {
             cell = UITableViewCell(
-            style: UITableViewCellStyle.Default, reuseIdentifier: simpleTableIdentifier)
+            style: UITableViewCellStyle.Default,
+            reuseIdentifier: simpleTableIdentifier)
         }
         
         let image = UIImage(named: "star")
@@ -50,6 +51,12 @@ class ViewController: UIViewController, UITableViewDataSource, UITableViewDelega
         let highlightedImage = UIImage(named: "star2")
         cell!.imageView?.highlightedImage = highlightedImage
         
+        if indexPath.row < 7 {
+            cell!.detailTextLabel?.text = "Mr Disney"
+        } else {
+            cell!.detailTextLabel?.text = "Mr Tolkien"
+        }
+            
         cell!.textLabel?.text = dwarves[indexPath.row]
         return cell!
     }
