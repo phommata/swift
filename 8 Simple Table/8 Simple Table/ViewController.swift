@@ -60,5 +60,11 @@ class ViewController: UIViewController, UITableViewDataSource, UITableViewDelega
         cell!.textLabel?.text = dwarves[indexPath.row]
         return cell!
     }
+    
+    func tableView(tableView: UITableView,
+        indentationLevelForRowAtIndexPath
+        indexPath: NSIndexPath) -> Int {
+        return indexPath.row % 4
+    }
 }
 
