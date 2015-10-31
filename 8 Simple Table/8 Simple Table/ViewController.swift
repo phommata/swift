@@ -39,10 +39,17 @@ class ViewController: UIViewController, UITableViewDataSource, UITableViewDelega
         cellForRowAtIndexPath indexPath: NSIndexPath) -> UITableViewCell {
         var cell = tableView.dequeueReusableCellWithIdentifier(
         simpleTableIdentifier) as? UITableViewCell
+        
         if (cell == nil) {
             cell = UITableViewCell(
             style: UITableViewCellStyle.Default, reuseIdentifier: simpleTableIdentifier)
         }
+        
+        let image = UIImage(named: "star")
+        cell!.imageView?.image = image
+        let highlightedImage = UIImage(named: "star2")
+        cell!.imageView?.highlightedImage = highlightedImage
+        
         cell!.textLabel?.text = dwarves[indexPath.row]
         return cell!
     }
