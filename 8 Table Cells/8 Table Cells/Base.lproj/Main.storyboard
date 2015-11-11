@@ -17,88 +17,25 @@
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="hFH-Y7-vET">
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="POe-EQ-ja8">
                                 <rect key="frame" x="0.0" y="20" width="600" height="580"/>
-                                <subviews>
-                                    <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="KEX-p6-btX">
-                                        <rect key="frame" x="0.0" y="0.0" width="600" height="580"/>
-                                        <subviews>
-                                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="L4T-pB-cin">
-                                                <rect key="frame" x="0.0" y="0.0" width="600" height="580"/>
-                                                <subviews>
-                                                    <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="YKA-Bf-Piw">
-                                                        <rect key="frame" x="0.0" y="0.0" width="600" height="580"/>
-                                                        <subviews>
-                                                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="ubr-vP-f6O">
-                                                                <rect key="frame" x="0.0" y="0.0" width="600" height="580"/>
-                                                                <subviews>
-                                                                    <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="cQ7-Sg-4zC">
-                                                                        <rect key="frame" x="0.0" y="0.0" width="600" height="580"/>
-                                                                        <subviews>
-                                                                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="guM-DK-dK2">
-                                                                                <rect key="frame" x="0.0" y="0.0" width="600" height="580"/>
-                                                                                <subviews>
-                                                                                    <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="6hp-gu-PcF">
-                                                                                        <rect key="frame" x="0.0" y="0.0" width="600" height="580"/>
-                                                                                        <subviews>
-                                                                                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="2cV-gV-3mt">
-                                                                                                <rect key="frame" x="0.0" y="0.0" width="600" height="580"/>
-                                                                                                <subviews>
-                                                                                                    <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="y80-FV-WMU">
-                                                                                                        <rect key="frame" x="0.0" y="0.0" width="600" height="580"/>
-                                                                                                        <subviews>
-                                                                                                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="XKf-NJ-rBY">
-                                                                                                                <rect key="frame" x="0.0" y="0.0" width="600" height="580"/>
-                                                                                                                <subviews>
-                                                                                                                    <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="doB-RT-oQ8">
-                                                                                                                        <rect key="frame" x="0.0" y="0.0" width="600" height="580"/>
-                                                                                                                        <subviews>
-                                                                                                                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="4kg-nu-4Ff">
-                                                                                                                                <rect key="frame" x="0.0" y="0.0" width="600" height="580"/>
-                                                                                                                                <subviews>
-                                                                                                                                    <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="7Op-Gz-xnc">
-                                                                                                                                        <rect key="frame" x="0.0" y="0.0" width="600" height="580"/>
-                                                                                                                                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                                                                                                                                        <connections>
-                                                                                                                                            <outlet property="dataSource" destination="BYZ-38-t0r" id="ttv-1J-PTM"/>
-                                                                                                                                            <outlet property="delegate" destination="BYZ-38-t0r" id="qct-Go-v0v"/>
-                                                                                                                                        </connections>
-                                                                                                                                    </tableView>
-                                                                                                                                </subviews>
-                                                                                                                            </stackView>
-                                                                                                                        </subviews>
-                                                                                                                    </stackView>
-                                                                                                                </subviews>
-                                                                                                            </stackView>
-                                                                                                        </subviews>
-                                                                                                    </stackView>
-                                                                                                </subviews>
-                                                                                            </stackView>
-                                                                                        </subviews>
-                                                                                    </stackView>
-                                                                                </subviews>
-                                                                            </stackView>
-                                                                        </subviews>
-                                                                    </stackView>
-                                                                </subviews>
-                                                            </stackView>
-                                                        </subviews>
-                                                    </stackView>
-                                                </subviews>
-                                            </stackView>
-                                        </subviews>
-                                    </stackView>
-                                </subviews>
-                            </stackView>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <connections>
+                                    <outlet property="dataSource" destination="BYZ-38-t0r" id="wHe-ad-EGj"/>
+                                </connections>
+                            </tableView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                         <constraints>
-                            <constraint firstItem="hFH-Y7-vET" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="Zf5-Qd-RWW"/>
-                            <constraint firstAttribute="trailing" secondItem="hFH-Y7-vET" secondAttribute="trailing" id="bFa-r7-lVu"/>
-                            <constraint firstItem="hFH-Y7-vET" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" id="ria-P8-FD6"/>
-                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="hFH-Y7-vET" secondAttribute="bottom" id="wDK-jy-j6f"/>
+                            <constraint firstAttribute="trailing" secondItem="POe-EQ-ja8" secondAttribute="trailing" id="9oI-lw-Ec1"/>
+                            <constraint firstItem="POe-EQ-ja8" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="DWu-vm-W9l"/>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="POe-EQ-ja8" secondAttribute="bottom" id="VcD-zM-vtJ"/>
+                            <constraint firstItem="POe-EQ-ja8" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" id="euf-vT-3PW"/>
                         </constraints>
                     </view>
+                    <connections>
+                        <outlet property="tableView" destination="POe-EQ-ja8" id="JPV-Z4-vog"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
