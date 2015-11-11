@@ -14,6 +14,7 @@
 		4B60F7D51BEB197900B179F6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4B60F7D31BEB197900B179F6 /* LaunchScreen.storyboard */; };
 		4B60F7E01BEB197900B179F6 /* __Table_CellsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B60F7DF1BEB197900B179F6 /* __Table_CellsTests.swift */; };
 		4B60F7EB1BEB197900B179F6 /* __Table_CellsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B60F7EA1BEB197900B179F6 /* __Table_CellsUITests.swift */; };
+		4B60F7F91BF3A4CD00B179F6 /* NameAndColorCellTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B60F7F81BF3A4CD00B179F6 /* NameAndColorCellTableViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		4B60F7E61BEB197900B179F6 /* 8 Table CellsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "8 Table CellsUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		4B60F7EA1BEB197900B179F6 /* __Table_CellsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = __Table_CellsUITests.swift; sourceTree = "<group>"; };
 		4B60F7EC1BEB197900B179F6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4B60F7F81BF3A4CD00B179F6 /* NameAndColorCellTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NameAndColorCellTableViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,6 +101,7 @@
 			children = (
 				4B60F7CA1BEB197800B179F6 /* AppDelegate.swift */,
 				4B60F7CC1BEB197800B179F6 /* ViewController.swift */,
+				4B60F7F81BF3A4CD00B179F6 /* NameAndColorCellTableViewCell.swift */,
 				4B60F7CE1BEB197900B179F6 /* Main.storyboard */,
 				4B60F7D11BEB197900B179F6 /* Assets.xcassets */,
 				4B60F7D31BEB197900B179F6 /* LaunchScreen.storyboard */,
@@ -193,6 +196,7 @@
 				TargetAttributes = {
 					4B60F7C61BEB197800B179F6 = {
 						CreatedOnToolsVersion = 7.1;
+						DevelopmentTeam = J3FQ9YEGF3;
 					};
 					4B60F7DA1BEB197900B179F6 = {
 						CreatedOnToolsVersion = 7.1;
@@ -258,6 +262,7 @@
 			files = (
 				4B60F7CD1BEB197800B179F6 /* ViewController.swift in Sources */,
 				4B60F7CB1BEB197800B179F6 /* AppDelegate.swift in Sources */,
+				4B60F7F91BF3A4CD00B179F6 /* NameAndColorCellTableViewCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -399,10 +404,13 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = "8 Table Cells/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.apress.--Table-Cells";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 			};
 			name = Debug;
 		};
@@ -410,10 +418,13 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = "8 Table Cells/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.apress.--Table-Cells";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 			};
 			name = Release;
 		};
@@ -484,6 +495,7 @@
 				4B60F7F11BEB197900B179F6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		4B60F7F21BEB197900B179F6 /* Build configuration list for PBXNativeTarget "8 Table CellsTests" */ = {
 			isa = XCConfigurationList;
@@ -492,6 +504,7 @@
 				4B60F7F41BEB197900B179F6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		4B60F7F51BEB197900B179F6 /* Build configuration list for PBXNativeTarget "8 Table CellsUITests" */ = {
 			isa = XCConfigurationList;
@@ -500,6 +513,7 @@
 				4B60F7F71BEB197900B179F6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
