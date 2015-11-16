@@ -14,6 +14,7 @@
 		4B408D8F1BF9732D0039F1FD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4B408D8D1BF9732D0039F1FD /* LaunchScreen.storyboard */; };
 		4B408D9A1BF9732D0039F1FD /* __SectionsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B408D991BF9732D0039F1FD /* __SectionsTests.swift */; };
 		4B408DA51BF9732D0039F1FD /* __SectionsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B408DA41BF9732D0039F1FD /* __SectionsUITests.swift */; };
+		4B408DB31BF978BD0039F1FD /* sortednames.plist in Resources */ = {isa = PBXBuildFile; fileRef = 4B408DB21BF978BD0039F1FD /* sortednames.plist */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		4B408DA01BF9732D0039F1FD /* 8 SectionsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "8 SectionsUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		4B408DA41BF9732D0039F1FD /* __SectionsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = __SectionsUITests.swift; sourceTree = "<group>"; };
 		4B408DA61BF9732D0039F1FD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4B408DB21BF978BD0039F1FD /* sortednames.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = sortednames.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -100,6 +102,7 @@
 				4B408D841BF9732D0039F1FD /* AppDelegate.swift */,
 				4B408D861BF9732D0039F1FD /* ViewController.swift */,
 				4B408D881BF9732D0039F1FD /* Main.storyboard */,
+				4B408DB21BF978BD0039F1FD /* sortednames.plist */,
 				4B408D8B1BF9732D0039F1FD /* Assets.xcassets */,
 				4B408D8D1BF9732D0039F1FD /* LaunchScreen.storyboard */,
 				4B408D901BF9732D0039F1FD /* Info.plist */,
@@ -229,6 +232,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4B408DB31BF978BD0039F1FD /* sortednames.plist in Resources */,
 				4B408D8F1BF9732D0039F1FD /* LaunchScreen.storyboard in Resources */,
 				4B408D8C1BF9732D0039F1FD /* Assets.xcassets in Resources */,
 				4B408D8A1BF9732D0039F1FD /* Main.storyboard in Resources */,
