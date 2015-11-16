@@ -25,6 +25,10 @@ class ViewController: UIViewController, UITableViewDataSource {
  
         tableView.registerClass(NameAndColorCell.self,
             forCellReuseIdentifier: cellTableIdentifier)
+        
+        let nib = UINib(nibName: "NameAndColorCell", bundle: nil)
+        tableView.registerNib(nib,
+            forCellReuseIdentifier: cellTableIdentifier)
     }
 
     override func didReceiveMemoryWarning() {
