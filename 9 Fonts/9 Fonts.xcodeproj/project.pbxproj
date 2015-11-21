@@ -14,6 +14,7 @@
 		4B00958F1BFF91260092B58A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4B00958D1BFF91260092B58A /* LaunchScreen.storyboard */; };
 		4B00959A1BFF91270092B58A /* __FontsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B0095991BFF91270092B58A /* __FontsTests.swift */; };
 		4B0095A51BFF91270092B58A /* __FontsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B0095A41BFF91270092B58A /* __FontsUITests.swift */; };
+		4BFEB6661C011445004F57C3 /* FavoritesList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BFEB6651C011445004F57C3 /* FavoritesList.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		4B0095A01BFF91270092B58A /* 9 FontsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "9 FontsUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		4B0095A41BFF91270092B58A /* __FontsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = __FontsUITests.swift; sourceTree = "<group>"; };
 		4B0095A61BFF91270092B58A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4BFEB6651C011445004F57C3 /* FavoritesList.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FavoritesList.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -100,6 +102,7 @@
 				4B0095841BFF91260092B58A /* AppDelegate.swift */,
 				4B0095861BFF91260092B58A /* ViewController.swift */,
 				4B0095881BFF91260092B58A /* Main.storyboard */,
+				4BFEB6651C011445004F57C3 /* FavoritesList.swift */,
 				4B00958B1BFF91260092B58A /* Assets.xcassets */,
 				4B00958D1BFF91260092B58A /* LaunchScreen.storyboard */,
 				4B0095901BFF91260092B58A /* Info.plist */,
@@ -258,6 +261,7 @@
 			files = (
 				4B0095871BFF91260092B58A /* ViewController.swift in Sources */,
 				4B0095851BFF91260092B58A /* AppDelegate.swift in Sources */,
+				4BFEB6661C011445004F57C3 /* FavoritesList.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -484,6 +488,7 @@
 				4B0095AB1BFF91270092B58A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		4B0095AC1BFF91270092B58A /* Build configuration list for PBXNativeTarget "9 FontsTests" */ = {
 			isa = XCConfigurationList;
@@ -492,6 +497,7 @@
 				4B0095AE1BFF91270092B58A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		4B0095AF1BFF91270092B58A /* Build configuration list for PBXNativeTarget "9 FontsUITests" */ = {
 			isa = XCConfigurationList;
@@ -500,6 +506,7 @@
 				4B0095B11BFF91270092B58A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
