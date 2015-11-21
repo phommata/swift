@@ -8,13 +8,13 @@
 
 /* Begin PBXBuildFile section */
 		4B0095851BFF91260092B58A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B0095841BFF91260092B58A /* AppDelegate.swift */; };
-		4B0095871BFF91260092B58A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B0095861BFF91260092B58A /* ViewController.swift */; };
 		4B00958A1BFF91260092B58A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4B0095881BFF91260092B58A /* Main.storyboard */; };
 		4B00958C1BFF91260092B58A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4B00958B1BFF91260092B58A /* Assets.xcassets */; };
 		4B00958F1BFF91260092B58A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4B00958D1BFF91260092B58A /* LaunchScreen.storyboard */; };
 		4B00959A1BFF91270092B58A /* __FontsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B0095991BFF91270092B58A /* __FontsTests.swift */; };
 		4B0095A51BFF91270092B58A /* __FontsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B0095A41BFF91270092B58A /* __FontsUITests.swift */; };
 		4BFEB6661C011445004F57C3 /* FavoritesList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BFEB6651C011445004F57C3 /* FavoritesList.swift */; };
+		4BFEB6681C011831004F57C3 /* RootViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BFEB6671C011831004F57C3 /* RootViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,7 +37,6 @@
 /* Begin PBXFileReference section */
 		4B0095811BFF91260092B58A /* 9 Fonts.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "9 Fonts.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		4B0095841BFF91260092B58A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		4B0095861BFF91260092B58A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		4B0095891BFF91260092B58A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		4B00958B1BFF91260092B58A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		4B00958E1BFF91260092B58A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -49,6 +48,7 @@
 		4B0095A41BFF91270092B58A /* __FontsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = __FontsUITests.swift; sourceTree = "<group>"; };
 		4B0095A61BFF91270092B58A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		4BFEB6651C011445004F57C3 /* FavoritesList.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FavoritesList.swift; sourceTree = "<group>"; };
+		4BFEB6671C011831004F57C3 /* RootViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = RootViewController.swift; path = ../RootViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,8 +99,8 @@
 		4B0095831BFF91260092B58A /* 9 Fonts */ = {
 			isa = PBXGroup;
 			children = (
+				4BFEB6671C011831004F57C3 /* RootViewController.swift */,
 				4B0095841BFF91260092B58A /* AppDelegate.swift */,
-				4B0095861BFF91260092B58A /* ViewController.swift */,
 				4B0095881BFF91260092B58A /* Main.storyboard */,
 				4BFEB6651C011445004F57C3 /* FavoritesList.swift */,
 				4B00958B1BFF91260092B58A /* Assets.xcassets */,
@@ -259,9 +259,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4B0095871BFF91260092B58A /* ViewController.swift in Sources */,
 				4B0095851BFF91260092B58A /* AppDelegate.swift in Sources */,
 				4BFEB6661C011445004F57C3 /* FavoritesList.swift in Sources */,
+				4BFEB6681C011831004F57C3 /* RootViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
